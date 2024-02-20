@@ -6,56 +6,140 @@
 }
 
 body{
-   
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
     background: url('header-img.png');
     color: white;
-    height: 60vh;
+    height: 30vh;
     text-align: center;
     background-size: cover;
    
 }
 
 header > h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 80px;
-}
-
-header > p {
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-header > a {
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    background-color: rgb(37, 37, 37);
-    color: white;
-    border: 1px solid rgb(73, 73, 73);
-    padding: 15px;
-}
-
-header > a:hover{
-    background-color: white;
-    color: black;
+    padding-top: 60px;
+    font-size: 5vw;
 }
 
 #sectionA{
-    padding: 100px;
+    padding: 60px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-#sectionA > p {
-    padding-top: 20px;
-    columns: 2;
-    column-gap: 2em;
-    text-align: justify;
+#sectionA  h2{
+    font-size: 2.5vw;
+}
+
+#sectionA  p{
+    font-size: 2.5vw;
 }
 
 #sectionB {
     background-color: rgb( 51, 51, 51);
+    
 }
+
+#sectionB a{
+    text-decoration: none;
+    color: rgb(218, 218, 218);
+    font-size: 2.5vw;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+
+div#card1{                
+    background-image: url('img1.png');
+    background-size: cover;
+    padding: 50px;
+    transition: 0.5s;
+}
+
+div#card1:hover{
+    padding: 100px;
+}
+
+div#card2{                
+    background-image: url('img2.png');
+    background-size: cover;
+    padding: 50px;
+    transition: 0.5s;
+}
+
+
+div#card2:hover{
+    padding: 100px;
+}
+
+div#card3{                
+    background-image: url('img3.png');
+    background-size: cover;
+    padding: 50px;
+    transition: 0.5s;
+}
+
+div#card3:hover{
+    padding: 100px;
+}
+
+#sectionC{
+    padding: 60px;
+    text-align: center;
+}
+
+#sectionC  h2{
+    font-size: 2.5vw;
+}
+
+#sectionC  p{
+    font-size: 2.5vw;
+}
+
+#sectionD{
+    text-align: center;
+}
+
+#box1{
+    background-color: #2690d4;
+    color: white;
+    width: ;
+    padding: 70px;
+    display: inline-block;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.404);
+}
+
+#box2{
+    background-color: rgb(56, 56, 56);
+    color: white;
+    width: ;
+    padding: 70px;
+    padding-top: 88px;
+    display: inline-block;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.404);
+}
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    columns: 2;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
